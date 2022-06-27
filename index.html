@@ -11,26 +11,19 @@
                 <p>Nivert Maxence's PortFolio</p>
             </div>
             <nav>
-                <a class="selected" href="./index.html">
-                    Home
-                </a>
-                <a href="./skillset.html">
-                    Skillset
-                </a>
-                <a href="./experience.html">
-                    Experience
-                </a>
-                <a href="./personal projects.html">
-                    Personal projects
-                </a>
-                <a href="./credential.html">
-                    Credential
-                </a>
+
             </nav>
         </header>
+        <div class="sidebar">
+            <a href="#home">1. Home</a>
+            <a href="#experience">2. Professional Experience</a>
+            <a href="#skillset">3. Skills</a>
+            <a href="#personal">4. Personal Project</a>
+            <a href="#credential">5. CV and Certificate</a>
+        </div>
         <div class="body-container">
             <div class="body">
-                <div class="home">
+                <div class="home"  id="home">
                     <img class="pp" src="./resources/img/thumbnail_Maxence.jpg">
                     <p class="intro">Hi,<br/>I'm Nivert Maxence.</p>
                     <p>I'm 20 years, I was born the 29th august 2001. I'm french and i live in Strasbourg (Alsace).</p>
@@ -41,10 +34,411 @@
                     </p>
                     <br/><br/>
                     <p>
-                        You can learn more about me and my educational background by navigating through the web.
+                        You can learn more about me and my educational background by navigating through the page.
                     </p>
                 </div>
+                <div class="experience" id="experience">
+                    <p class="cat">Professional experiences</p>
+    
+                    <div class="container" id="its-future">
+                        <img class="logo" src="./resources/img/experience/its-future.png" style="padding: 10px 0;">
+                        <p class="title">Internship as Junior developper <span class="duration">(3.5 months)</span></p>
+                        <p class="place">ITS Future SAS</p>
+                        <p class="adress">5 Rue Hannah Arendt, Les Forges Numériques, 67200 - Strasbourg</p>
+                        <p class="date">01/2022 - 04/2022</p>
+    
+                        <p class="description">
+                            Participation in 2 web and software development projects including Swallis Medical in 
+                            <span class="highlight">NodeJS</span> on the back (PostgreSQL) and <span class="highlight">Angular</span> on the front 
+                            by integrating development teams and following the <span class="highlight">Agile method</span>. The 
+                            different work topics: DB synchronization, serial port sygnal analysis.
+                        </p>
+                    </div>
+    
+                    <div class="container" id="em">
+                        <img class="logo" src="./resources/img/experience/EM-strasbourg.png" style="padding: 30px 0;">
+                        <p class="title">Internship as Project manager <span class="duration">(4 months)</span></p>
+                        <p class="place">EM Strasbourg</p>
+                        <p class="adress">61 Av. de la Forêt-Noire, 67000 - Strasbourg</p>
+                        <p class="date">04/2021 - 07/2021</p>
+    
+                        <p class="description">
+    
+                            Development  of the website of the Revue Française
+                            de Gestion Industrielle from A to Z by customizing <span class="highlight">Open Journal System</span> of
+                            PKP (<span class="highlight">PHP</span>, JS, SQL, POO, Plugin architecture).
+                        </p>
+                    </div>
+                    
+                    <br/><br/>
+                    <p class="cat">Education</p>
+    
+                    <div class="container" id="cesi">
+                        <img class="logo" style="max-height: 140px; object-fit: cover;" src="./resources/img/experience/Cesi_Logo_INGENIEUR_quadri.png">
+                        <p class="title" style="padding-top: 0.5em;">CESI IT Engineering school <span class="duration">3rd year student</span></p>
+                        <p class="place">CESI Ecole d'ingénieurs</p>
+                        <p class="adress">Parc Club des Tanneries, 2 Allée des Foulons, 67380 - Strasbourg Lingolsheim</p>
+                        <p class="date">2019 - 2022</p>
+                    </div>
+    
+                    <div class="container" id="heinrich">
+                        <img class="logo" src="./resources/img/experience/event_forum-des-etudes-superieures-du-lycee-lavoisier-de-mulhouse_161787.jpg">
+                        <p class="title" style="padding-top: 0.5em;">Scientific Baccalaureate <span class="duration">with Honors</span></p>
+                        <p class="place">Lavoisier Highschool</p>
+                        <p class="adress">42 Rue Lavoisier, 68200 Mulhouse</p>
+                        <p class="date">2016 - 2019</p>
+    
+                        <p class="description">
+                            <span class="highlight">Engineering Sciences</span><br/>
+                            Computer Science and Digital Science specialtiy (ISN)<br/>
+                        </p>
+                    </div>
+                </div>
+                <div class="skillset" id="skillset">
+                    <div class="container" id="languages">
+                        <p class="title">Languages :</p>
+                        <div class="progress-bar">
+                            <p class="label">French :</p>
+                            <div>
+                                <span>Mother tongue</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">English :</p>
+                            <div>
+                                <span>B2 Fluent</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">German :</p>
+                            <div>
+                                <span>A2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" id="p-languages">
+                        <p class="title">Programming languages :</p>
+                        <div class="progress-bar">
+                            <p class="label">TypeScript (Angular, NodeJS, NestJS) :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score mid"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        
+                        <div class="progress-bar">
+                            <p class="label">JavaScript :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score mid"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">PHP (Smarty) :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">C# (.NET WPF) :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">C++ (Arduino, .NET) :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score mid"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">Python :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">Powershell :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" id="w-software">
+                        <p class="title">Working softwares :</p>
+                        <p class="subtitle">IDE :</p>
+                        <div class="progress-bar">
+                            <p class="label">Visual Studio 2019 :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">Visual Studio Code :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score mid"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">IntelliJ Idea :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score mid"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <p class="subtitle">Office :</p>
+                        <div class="progress-bar">
+                            <p class="label">Word :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">Excel :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">PowerPoint :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <p class="subtitle">Working methods :</p>
+                        <div class="progress-bar">
+                            <p class="label">Git (and GitHub, <br/>BitBucket, GitLab) :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score mid"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">Postman :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">Terminal (Windows/Linux) :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="label">Jira (Ticket system) :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <p class="subtitle">Other :</p>
+                        <div class="progress-bar">
+                            <p class="label">Docker :</p>
+                            <div>
+                                <span>Beginner</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" id="it">
+                        <p class="title">IT Notions :</p>
+                        <div class="progress-bar">
+                            <p class="label">Object oriented :</p>
+                            <div>
+                                <span>Theoric</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score mid"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <p class="description">UML, MVC architecture, micro-service architecture, multithreading.</p>
+    
+                        <div class="progress-bar">
+                            <p class="label">Web :</p>
+                            <div>
+                                <span>Theoric</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <p class="description">CSS (sass, scss, less), nodeJS, webservice, SEO, navigator extension, ecommerce.</p>
+    
+                        <div class="progress-bar">
+                            <p class="label">Database :</p>
+                            <div>
+                                <span>Theoric</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <p class="description">CDM, LDM, SQL (MySQL, SQL Server, PostgreSQL), NoSQL (HiveQL).</p>
+    
+                        <div class="progress-bar">
+                            <p class="label">Networking :</p>
+                            <div>
+                                <span>Theoric</span>
+                                <span class="score true"></span>
+                                <span class="score true"></span>
+                                <span class="score mid"></span>
+                                <span class="score false"></span>
+                                <span class="score false"></span>
+                                <span>Expert</span>
+                            </div>
+                        </div>
+                        <p class="description">CCNA1.</p>
+                    </div>
+                </div>
+                <div class="credential" id="credential">
+                    <div class="container">
+                        <p class="cat">My Resume</p>
+
+                        <a target="_blank" href="./resources/file/Maxence NIVERT cv.pdf" class="download">
+                            <p>
+                                Download <img src="./resources/img/icons/download-svgrepo-com.svg"/>
+                            </p>
+                        </a>
+
+                        <br/>
+                        <p class="cat">Honors/awards</p>
+
+                        <p class="text">
+                            <span class="date">2019</span>
+                            Scientific Baccalaureate with Honors (14/20)
+                        </p>
+                        <p class="text">
+                            <span class="date">2016</span>
+                            Junior school certificate with Honors
+                        </p>
+                    </div>
+                </div>
+                <div class="personal" id="personal">
+                    <div class="container">
+                        <p class="title">
+                            <a target="_blank" href="https://github.com/maxenceniv/ISN-project">Flee the vampire</a>
+                        </p>
+                        <p class="date">2019</p>
+                        <p class="description">
+                            Small game made in Python with the pygame framework.<br>
+                            This game include 2 game mode, one with a IA chassing you through a maze and one where you play against a player in local.
+                        </p>
+                    </div>
+                </div>
             </div>
+            
         </div>
         <footer>
             <p class="modified">Last modified on 27/06/2022</p>
