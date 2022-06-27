@@ -1,0 +1,78 @@
+.experience {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience .cat {
+    width: 80%;
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: 24;
+    color: #454647;
+}
+
+.experience .container {
+    width: 80%;
+    min-width: 550px;
+    box-sizing: border-box;
+    padding: 1em;
+    margin-bottom: 2em;
+
+    border-radius: 5px;
+    border: 1px solid #454647;
+}
+
+.experience .container .logo {
+    max-height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+
+    margin-right: 0.5em;
+    float: left;
+}
+
+.experience .container .title {
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: 24;
+    color: #454647;
+}
+
+.experience .container .title .duration {
+    color: #454647;
+}
+
+.experience .container .place {
+    margin: 0;
+    font-size: 20;
+    color: #454647;
+}
+
+.experience .container .adress {
+    margin: 0;
+    padding-bottom: 0.5em;
+    font-size: 20;
+    color: #202225;
+}
+
+.experience .container .date {
+    margin: 0;
+    padding-bottom: 0.5em;
+    font-size: 20;
+    color: #454647;
+}
+
+.experience .container .description {
+    margin: 0;
+    padding-top: 1em;
+    text-align: justify;
+    font-size: 20;
+    color: #454647;
+}
+
+.experience .container .description .highlight {
+    color: #454647;
+}

@@ -1,0 +1,37 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 220px;
+    margin-top: 76px;
+    padding: 3em 1em;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #aaaaaa;
+}
+
+.sidebar .cat {
+    margin: 0;
+    padding-top: 1em;
+    font-size: 20px;
+
+    color: #aaaaaa;
+    border-bottom: 1px solid #454647;;
+}
+
+.sidebar a {
+    padding: 0.5em;
+    padding-left: 1em;
+    margin: 1em 0;
+    border-radius: 5px;
+
+    color: #454647;
+    font-size: 20;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #ffffff;
+}

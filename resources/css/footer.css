@@ -1,0 +1,92 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #c2c2c2;
+
+    padding: 1em;
+    box-sizing: border-box;
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+}
+
+footer .modified {
+    margin: 0;
+    color: #454647;
+    font-size: 20px;
+    padding: 0.5em;
+}
+
+footer .main-img {
+    height: 44px;
+}
+
+footer .contact {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+footer .contact .dropdown-container .text {
+    margin: 0;
+    padding: 0.5em;
+    color: #6a6a6b;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer .contact .dropdown-container:hover .text {
+    background-color: #454647;
+}
+
+footer .contact .dropdown-container .text:hover {
+    cursor: pointer;
+}
+
+footer .contact .dropdown-container:hover .dropdown {
+    display: block;
+}
+
+footer .contact .dropdown-container .dropdown {
+    position: fixed;
+    bottom: 56px;
+    right: 0;
+    display: none;
+    width: 300px;
+    background-color: #c2c2c2;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+footer .contact .dropdown-container p {
+    color: #454647;
+    font-size: 20px;
+    margin: 0;
+}
+
+footer .contact .dropdown-container p img {
+    filter: invert(90%) sepia(7%) saturate(100%) hue-rotate(177deg) brightness(83%) contrast(91%);
+    height: 20px;
+}
+
+
+footer .contact .icon {
+    border-radius: 5px;
+    margin: 0 0.5em;
+}
+
+footer .contact .icon:hover {
+    background-color: #ffffff;
+}
+
+footer .contact .icon img{
+    height: 24px;
+    margin: 10px;
+    filter: invert(90%) sepia(7%) saturate(100%) hue-rotate(177deg) brightness(83%) contrast(91%);
+}

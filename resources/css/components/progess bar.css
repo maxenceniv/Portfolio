@@ -1,0 +1,38 @@
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 0.4em 0;
+}
+
+.progress-bar .label {
+    margin: 0;
+    font-size: 20px;
+    color: #454647;
+}
+
+.progress-bar div span {
+    font-size: 18px;;
+    padding: 0 0.5em;
+    color: #454647;
+}
+
+.progress-bar div span.score {
+    border-radius: 2px;
+    margin: 0 0.1em;
+}
+
+.progress-bar div span.score.true {
+    background-color: #46c46e;
+}
+
+.progress-bar div span.score.false {
+    background-color: #acacac;
+}
+
+.progress-bar div span.score.mid {
+    background-color: #46c46e70;
+}
